@@ -19,7 +19,7 @@ ________________________________________________________________________________
 
 | **8PM - 11PM**
 | 1. Get Home |
-| 2. Eat  Delicious Dinner |
+| 2. Eat Dinner |
 | 3. Do Assignments |
 | 4. Go to Bed |
 
