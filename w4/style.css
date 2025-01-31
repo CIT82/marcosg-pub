@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    text-align: center;
+}
+
+details {
+    margin: 20px auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.image-container {
+    margin: 20px auto;
+    width: 320px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+figcaption {
+    font-size: 14px;
+    color: #555;
+}
+
+.progress-bar {
+    width: 50%;
+    height: 20px;
+}
+
