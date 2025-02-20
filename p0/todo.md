@@ -1,0 +1,15 @@
+- [ ] Update the Title
+- [ ] Update Background video
+- [ ] Update connected pages
+- [ ] update images in informational images
+- [ ] Update color scheme
+- [ ] Update menu items
+- [ ] Update meeting times for events
+- [ ] Update prices for lessons
+- [ ] Update details for all of the info on the website
+- [ ] Update the code so that it is more simple and concise
+- [ ] Update copyright and naming of owner of website
+- [ ] Update contact info and coding for it
+- [ ] Update get in touch section of website
+- [ ] Update All text in the website
+- [ ] Update social media page connections
