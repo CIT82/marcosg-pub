@@ -1,15 +1,16 @@
-- [ ] Update the Title
-- [ ] Update Background video
-- [ ] Update connected pages
-- [ ] update images in informational images
+- [x] Update the Title
+- [x] Update Background video
+- [x] Update connected pages
+- [x] update images in informational images
 - [ ] Update color scheme
 - [ ] Update menu items
-- [ ] Update meeting times for events
-- [ ] Update prices for lessons
-- [ ] Update details for all of the info on the website
-- [ ] Update the code so that it is more simple and concise
-- [ ] Update copyright and naming of owner of website
-- [ ] Update contact info and coding for it
-- [ ] Update get in touch section of website
+- [x] Update meeting times for events
+- [x] Update prices for lessons
+- [x] Update details for all of the info on the website
+- [x] Update the code so that it is more simple and concise
+- [x] Update copyright and naming of owner of website
+- [x] Update contact info and coding for it
+- [x] Update get in touch section of website
 - [ ] Update All text in the website
 - [ ] Update social media page connections
+- [ ] Add 5 more new pages
