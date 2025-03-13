@@ -25,48 +25,21 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Tesla</title>
-    <!--
-    Template 2103 Central
-
-    http://www.tooplate.com/view/2103-central
-    -->
+    <title>Tesla MegaPack</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
-    <!-- Google web font "Open Sans" -->
     <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
     <link rel="stylesheet" href="css/tooplate-style.css">
-    <!-- tooplate style -->
-
-    <script>
-        var renderPage = true;
-
-        if (navigator.userAgent.indexOf('MSIE') !== -1
-            || navigator.appVersion.indexOf('Trident/') > 0) {
-            /* Microsoft Internet Explorer detected in. */
-            alert("Please view this in a modern browser such as Chrome or Microsoft Edge.");
-            renderPage = false;
-        }
-    </script>
-
 </head>
 
 <body>
-    <!-- Loader -->
-    <div id="loader-wrapper">
-        <div id="loader"></div>
-        <div class="loader-section section-left"></div>
-        <div class="loader-section section-right"></div>
-    </div>
     <div class="container">
         <section class="tm-section-head" id="top">
             <header id="header" class="text-center tm-text-gray">
-                <h1>TESLA</h1>
-                <p>THE FUTURE OF AUTOMOTIVE INNOVATION</p>
+                <h1>Tesla MegaPack</h1>
+                <p>Powering the Future of Energy Storage</p>
             </header>
 
             <nav class="navbar navbar-light">
@@ -97,103 +70,73 @@
                             <a class="nav-link tm-text-gray" href="Model S.html">Model S</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link tm-text-gray" href="roadster.html">Roadster</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link tm-text-gray" href="Cybertruck.html">Cybertruck</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link tm-text-gray" href="info.html">Info</a> <!-- Link to info.html -->
+                            <a class="nav-link tm-text-gray" href="cyberquad.html">Cyberquad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link tm-text-gray" href="cybercab.html">Cybercab</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link tm-text-gray" href="megapack.html">MegaPack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link tm-text-gray" href="powerwall.html">Powerwall</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link tm-text-gray" href="robovan.html">Robovan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link tm-text-gray" href="semi.html">Semi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link tm-text-gray" href="solar.html">Solar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link tm-text-gray" href="info.html">Info</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link tm-text-gray" href="contact.html">Contact</a>
                         </li>
                     </ul>
+                    
                 </div>
             </nav>
         </section>
 
-<section class="inner-page">
-    <div class="container">
-        <h1>Small</h1>
-        <img src="img/cybertuck.jpg" alt="Smaller version" width="200" height="130">
-        <h1>Medium</h1>
-        <img src="img/cybertuck.jpg" alt="Smaller version" width="400" height="260">
-        <h1>Large</h1>
-        <img src="img/cybertuck.jpg" alt="Smaller version" width="800" height="520">
+        <section class="tm-section-6" id="tm-section-6">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <img src="img/tesla-megapack.jpg" class="img-fluid" alt="Tesla MegaPack">
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <h2>Utility-Scale Energy Storage</h2>
+                    <p>The Tesla MegaPack is the world’s most powerful energy storage system designed for utility-scale projects. With its massive capacity, the MegaPack helps utilities store large amounts of energy to be distributed when demand is high or when renewable energy production fluctuates. Its modular design allows it to be scaled up to meet the energy demands of communities, businesses, and industries. The MegaPack integrates with renewable energy sources like solar and wind, providing clean, efficient power while reducing dependency on fossil fuels.</p>
+                    <ul>
+                        <li>Massive Storage Capacity for Large-Scale Use</li>
+                        <li>Scalable Design to Meet Energy Demands</li>
+                        <li>Fast Installation and Low Maintenance</li>
+                        <li>Ideal for Integration with Solar and Wind Energy</li>
+                        <li>Supports Grid Stabilization and Reliability</li>
+                        <li>Environmentally Friendly and Sustainable Solution</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </div>
-</section>
 
- <!-- load JS files -->
- <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
- <script src="js/popper.min.js"></script>
- <script src="js/bootstrap.min.js"></script>
- <script type="text/javascript" src="slick/slick.min.js"></script>
+    <footer class="mt-5">
+        <p class="text-center">Copyright © 2025 Tesla, Inc.</p>
+    </footer>
 
- <script>
-     function setCarousel() {
-         var slider = $('.tm-img-slider');
-
-         if (slider.hasClass('slick-initialized')) {
-             slider.slick('destroy');
-         }
-
-         if ($(window).width() > 991) {
-             slider.slick({
-                 autoplay: true,
-                 fade: true,
-                 speed: 800,
-                 infinite: true,
-                 slidesToShow: 1,
-                 slidesToScroll: 1
-             });
-         } else {
-             slider.slick({
-                 autoplay: true,
-                 fade: true,
-                 speed: 800,
-                 infinite: true,
-                 slidesToShow: 1,
-                 slidesToScroll: 1
-             });
-         }
-     }
-
-     $(document).ready(function () {
-         if (renderPage) {
-             $('body').addClass('loaded');
-         }
-
-         setCarousel();
-
-         $(window).resize(function () {
-             setCarousel();
-         });
-
-         $('.nav-link').click(function () {
-             $('#mainNav').removeClass('show');
-         });
-
-         $('a[href*="#"]').not('[href="#"]').not('[href="#0"]').click(function (event) {
-             if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-                 var target = $(this.hash);
-                 target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                 if (target.length) {
-                     event.preventDefault();
-                     $('html, body').animate({
-                         scrollTop: target.offset().top
-                     }, 1000, function () {
-                         var $target = $(target);
-                         $target.focus();
-                         if ($target.is(":focus")) {
-                             return false;
-                         } else {
-                             $target.attr('tabindex', '-1');
-                             $target.focus();
-                         }
-                     });
-                 }
-             }
-         });
-     });
- </script>
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
 </body>
 
 </html>

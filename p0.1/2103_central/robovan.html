@@ -25,43 +25,21 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Tesla Info</title>
+    <title>Robovan - Tesla</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
-    <!-- Google web font "Open Sans" -->
     <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
     <link rel="stylesheet" href="css/tooplate-style.css">
-    <!-- tooplate style -->
-
-    <script>
-        var renderPage = true;
-
-        if (navigator.userAgent.indexOf('MSIE') !== -1
-            || navigator.appVersion.indexOf('Trident/') > 0) {
-            alert("Please view this in a modern browser such as Chrome or Microsoft Edge.");
-            renderPage = false;
-        }
-    </script>
-
 </head>
 
 <body>
-    <!-- Loader -->
-    <div id="loader-wrapper">
-        <div id="loader"></div>
-        <div class="loader-section section-left"></div>
-        <div class="loader-section section-right"></div>
-    </div>
-
     <div class="container">
         <section class="tm-section-head" id="top">
             <header id="header" class="text-center tm-text-gray">
-                <h1>Tesla Info</h1>
-                <p>Discover the Features of Tesla Vehicles</p>
+                <h1>Robovan</h1>
+                <p>The Future of Autonomous Transport</p>
             </header>
 
             <nav class="navbar navbar-light">
@@ -126,120 +104,36 @@
                         </li>
                     </ul>
                     
-                    
                 </div>
             </nav>
         </section>
 
-        <section class="tm-section-2 tm-section-mb" id="model-3">
+        <section class="tm-section-6" id="tm-section-6">
             <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-6 mb-lg-0 mb-md-5 mb-5 pr-md-5">
-                    <header class="text-center">
-                        <i class="fa fa-4x fa-car pl-5 pb-5 pr-5 pt-2"></i>
-                    </header>
-
-                    <h2>Model 3</h2>
-                    <p>The Tesla Model 3 is the perfect combination of performance, safety, and design. With a range of 358 miles and incredible acceleration, it’s a game-changer for electric vehicles.</p>
-
-                    <a href="#model-y" class="btn tm-btn-pad-2 float-right">Learn More</a>
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <img src="img/tesla-robovan.jpg" class="img-fluid" alt="Robovan">
                 </div>
-
-                <div class="col-xl-4 col-lg-4 col-md-6 mb-lg-0 mb-md-5 mb-5 pr-md-5">
-                    <header class="text-center">
-                        <i class="fa fa-4x fa-bolt pl-5 pb-5 pr-5 pt-2"></i>
-                    </header>
-
-                    <h2>Model Y</h2>
-                    <p>The Tesla Model Y is a versatile crossover SUV with the same incredible performance and safety as the Model 3, offering more room for families while maintaining a sleek design.</p>
-
-                    <a href="#model-x" class="btn tm-btn-pad-2 float-right">Learn More</a>
-                </div>
-
-                <div class="col-xl-4 col-lg-4 col-md-12">
-                    <header class="text-center">
-                        <i class="fa fa-4x fa-truck pl-5 pb-5 pr-5 pt-2"></i>
-                    </header>
-
-                    <h2>Cybertruck</h2>
-                    <p>The Tesla Cybertruck is designed for durability and utility. With its futuristic design, it’s a truck built for strength and performance, ready for any adventure you want to take.</p>
-
-                    <a href="#contact" class="btn tm-btn-pad-2 float-right">Learn More</a>
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <h2>Performance</h2>
+                    <ul>
+                        <li>Range: 400+ miles</li>
+                        <li>Autonomous Driving: Full Self-Driving Capability</li>
+                        <li>Seating Capacity: Up to 12 passengers</li>
+                        <li>Adaptive Cargo Space</li>
+                    </ul>
                 </div>
             </div>
         </section>
-
-       
-
-        <footer class="mt-5">
-            <p class="text-center">Copyright © 2025 Tesla - Design: 
-                <a rel="nofollow" href="https://www.tooplate.com" target="_parent" class="tm-text-black">Tooplate</a>
-            </p>
-        </footer>
     </div>
 
-    <!-- Load JS files -->
+    <footer class="mt-5">
+        <p class="text-center">Copyright © 2025 Tesla, Inc.</p>
+    </footer>
+
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
-
-    <script>
-        function setCarousel() {
-            var slider = $('.tm-img-slider');
-            if (slider.hasClass('slick-initialized')) {
-                slider.slick('destroy');
-            }
-
-            if ($(window).width() > 991) {
-                slider.slick({
-                    autoplay: true,
-                    fade: true,
-                    speed: 800,
-                    infinite: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                });
-            }
-        }
-
-        $(document).ready(function () {
-            if (renderPage) {
-                $('body').addClass('loaded');
-            }
-
-            setCarousel();
-            $(window).resize(function () {
-                setCarousel();
-            });
-
-            // Close menu after link click
-            $('.nav-link').click(function () {
-                $('#mainNav').removeClass('show');
-            });
-
-            // Smooth scrolling
-            $('a[href*="#"]')
-                .not('[href="#"]')
-                .not('[href="#0"]')
-                .click(function (event) {
-                    if (
-                        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-                        &&
-                        location.hostname == this.hostname
-                    ) {
-                        var target = $(this.hash);
-                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                        if (target.length) {
-                            event.preventDefault();
-                            $('html, body').animate({
-                                scrollTop: target.offset().top + 1
-                            }, 1000);
-                        }
-                    }
-                });
-        });
-    </script>
-
 </body>
 
 </html>
